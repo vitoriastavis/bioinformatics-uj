@@ -3,7 +3,7 @@ Laboratory of Bioinformatics and Genome Biology - Jagiellonian University, Craco
 
 # Introduction 
 Insects, in general, are a good model to study genomics and transcriptomics, as well as easy to manage and take care of.
-Amongst the non-coding RNA, there are piRNAs, which have 26~31 nt. and interact with piwi-subfamily Argonaute proteins. They are only found in animals so far, especially in the germ cells, where they protect the DNA from transposable elements and other genetic elements. 
+Amongst the non-coding RNA, there are piRNAs, which have 24-31 nt. and interact with piwi-subfamily Argonaute proteins. They are only found in animals so far, especially in the germ cells, where they protect the DNA from transposable elements and other genetic elements. 
 piRNAs can also be expressed in somatic cells, but their role has not been fully comprehended.
 In addition, the european cockroach, *Blattella germanica*, can be a model to study piRNA and their funcion.
 
