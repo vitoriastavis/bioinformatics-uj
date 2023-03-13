@@ -1,4 +1,5 @@
-# Laboratory of Bioinformatics and Genome Biology - Jagiellonian University, Cracow, Poland
+# Title
+Laboratory of Bioinformatics and Genome Biology - Jagiellonian University, Cracow, Poland
 
 # Introduction 
 Insects, in general, are a good model to study genomics and transcriptomics, as well as easy to manage and take care of.
