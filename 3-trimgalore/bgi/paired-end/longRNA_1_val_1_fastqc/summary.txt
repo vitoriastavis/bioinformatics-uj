@@ -1,0 +1,10 @@
+PASS	Basic Statistics	longRNA_1_val_1.fq.gz
+PASS	Per base sequence quality	longRNA_1_val_1.fq.gz
+PASS	Per sequence quality scores	longRNA_1_val_1.fq.gz
+FAIL	Per base sequence content	longRNA_1_val_1.fq.gz
+WARN	Per sequence GC content	longRNA_1_val_1.fq.gz
+PASS	Per base N content	longRNA_1_val_1.fq.gz
+WARN	Sequence Length Distribution	longRNA_1_val_1.fq.gz
+FAIL	Sequence Duplication Levels	longRNA_1_val_1.fq.gz
+FAIL	Overrepresented sequences	longRNA_1_val_1.fq.gz
+PASS	Adapter Content	longRNA_1_val_1.fq.gz

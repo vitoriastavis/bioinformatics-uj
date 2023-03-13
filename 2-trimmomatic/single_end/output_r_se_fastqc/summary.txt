@@ -1,0 +1,11 @@
+PASS	Basic Statistics	output_r_se.fq.gz
+PASS	Per base sequence quality	output_r_se.fq.gz
+PASS	Per tile sequence quality	output_r_se.fq.gz
+PASS	Per sequence quality scores	output_r_se.fq.gz
+WARN	Per base sequence content	output_r_se.fq.gz
+FAIL	Per sequence GC content	output_r_se.fq.gz
+PASS	Per base N content	output_r_se.fq.gz
+WARN	Sequence Length Distribution	output_r_se.fq.gz
+FAIL	Sequence Duplication Levels	output_r_se.fq.gz
+FAIL	Overrepresented sequences	output_r_se.fq.gz
+PASS	Adapter Content	output_r_se.fq.gz

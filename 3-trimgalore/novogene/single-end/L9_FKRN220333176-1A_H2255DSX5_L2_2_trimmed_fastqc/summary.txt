@@ -1,0 +1,11 @@
+PASS	Basic Statistics	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+PASS	Per base sequence quality	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+PASS	Per tile sequence quality	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+PASS	Per sequence quality scores	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+FAIL	Per base sequence content	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+FAIL	Per sequence GC content	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+PASS	Per base N content	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+WARN	Sequence Length Distribution	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+FAIL	Sequence Duplication Levels	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+FAIL	Overrepresented sequences	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz
+PASS	Adapter Content	L9_FKRN220333176-1A_H2255DSX5_L2_2_trimmed.fq.gz

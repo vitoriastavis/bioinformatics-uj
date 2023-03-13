@@ -1,0 +1,107 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../sequences/novogene/S9.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 959578). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.2 with Python 3.10.9
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../sequences/novogene/S9.fq.gz
+Processing single-end reads on 1 core ...
+Finished in 14.253 s (7.220 µs/read; 8.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               1,974,213
+Reads with adapters:                 1,963,528 (99.5%)
+Reads written (passing filters):     1,974,213 (100.0%)
+
+Total basepairs processed:    98,710,650 bp
+Quality-trimmed:                  28,890 bp (0.0%)
+Total written (filtered):     49,157,521 bp (49.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 1963528 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 16.7%
+  C: 24.2%
+  G: 23.8%
+  T: 32.4%
+  none/other: 2.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2330	493553.2	0	2330
+2	642	123388.3	0	642
+3	299	30847.1	0	299
+4	1427	7711.8	0	1427
+5	8926	1927.9	0	8926
+6	3195	482.0	0	3195
+7	12449	120.5	0	12449
+8	1612	30.1	0	1612
+9	936	7.5	0	933 3
+10	1607	1.9	1	1586 21
+11	2200	0.5	1	2171 29
+12	3681	0.1	1	3618 63
+13	11113	0.0	1	10933 180
+14	12815	0.0	1	12619 196
+15	10397	0.0	1	10212 185
+16	14777	0.0	1	14484 293
+17	31908	0.0	1	31380 528
+18	57770	0.0	1	56925 845
+19	49631	0.0	1	48846 785
+20	74808	0.0	1	73477 1331
+21	157775	0.0	1	155345 2430
+22	382995	0.0	1	377236 5759
+23	127969	0.0	1	126047 1922
+24	101979	0.0	1	100214 1765
+25	100197	0.0	1	98636 1561
+26	99768	0.0	1	98222 1546
+27	110144	0.0	1	108443 1701
+28	133979	0.0	1	131828 2151
+29	86507	0.0	1	85105 1402
+30	64852	0.0	1	63741 1111
+31	49835	0.0	1	49045 790
+32	34119	0.0	1	33553 566
+33	26585	0.0	1	26096 489
+34	18029	0.0	1	17687 342
+35	13732	0.0	1	13507 225
+36	9703	0.0	1	9505 198
+37	53822	0.0	1	52880 942
+38	6116	0.0	1	6003 113
+39	4592	0.0	1	4488 104
+40	3867	0.0	1	3786 81
+41	8296	0.0	1	8138 158
+42	2485	0.0	1	2455 30
+43	1537	0.0	1	1511 26
+44	845	0.0	1	833 12
+45	1070	0.0	1	1058 12
+46	106	0.0	1	99 7
+47	415	0.0	1	394 21
+48	2836	0.0	1	2791 45
+49	2238	0.0	1	2197 41
+50	54612	0.0	1	53514 1098
+
+RUN STATISTICS FOR INPUT FILE: ../sequences/novogene/S9.fq.gz
+=============================================
+1974213 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	295206 (15.0%)
+

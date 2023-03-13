@@ -1,0 +1,11 @@
+PASS	Basic Statistics	S9.fq.gz
+PASS	Per base sequence quality	S9.fq.gz
+PASS	Per tile sequence quality	S9.fq.gz
+PASS	Per sequence quality scores	S9.fq.gz
+FAIL	Per base sequence content	S9.fq.gz
+WARN	Per sequence GC content	S9.fq.gz
+PASS	Per base N content	S9.fq.gz
+PASS	Sequence Length Distribution	S9.fq.gz
+FAIL	Sequence Duplication Levels	S9.fq.gz
+FAIL	Overrepresented sequences	S9.fq.gz
+FAIL	Adapter Content	S9.fq.gz

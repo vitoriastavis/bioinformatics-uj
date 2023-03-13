@@ -1,0 +1,84 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../../../sequences/bgi/shortRNA_1.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Unable to auto-detect most prominent adapter from the first specified file (count Illumina: 0, count smallRNA: 0, count Nextera: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.2 with Python 3.10.9
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../../../sequences/bgi/shortRNA_1.fq.gz
+Processing single-end reads on 1 core ...
+Finished in 208.705 s (8.250 µs/read; 7.27 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              25,296,694
+Reads with adapters:                 5,390,475 (21.3%)
+Reads written (passing filters):    25,296,694 (100.0%)
+
+Total basepairs processed:   707,579,947 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):    700,523,608 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 5390475 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 21.4%
+  C: 28.6%
+  G: 23.9%
+  T: 26.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4137919	6324173.5	0	4137919
+2	950567	1581043.4	0	950567
+3	242217	395260.8	0	242217
+4	42385	98815.2	0	42385
+5	11689	24703.8	0	11689
+6	2483	6176.0	0	2483
+7	193	1544.0	0	193
+8	133	386.0	0	133
+9	212	96.5	0	0 212
+10	172	24.1	1	0 172
+11	206	6.0	1	0 206
+12	146	1.5	1	0 146
+13	4	0.4	1	0 4
+14	393	0.4	1	0 393
+15	350	0.4	1	0 350
+16	5	0.4	1	0 5
+17	252	0.4	1	0 252
+18	596	0.4	1	0 596
+19	264	0.4	1	0 264
+20	97	0.4	1	0 97
+21	49	0.4	1	0 49
+24	2	0.4	1	0 2
+26	49	0.4	1	0 49
+27	90	0.4	1	0 90
+28	1	0.4	1	0 1
+30	1	0.4	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: ../../../sequences/bgi/shortRNA_1.fq.gz
+=============================================
+25296694 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	748637 (3.0%)
+

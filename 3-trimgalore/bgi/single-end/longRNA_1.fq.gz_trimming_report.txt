@@ -1,0 +1,157 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../../sequences/bgi/longRNA_1.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 3). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.2 with Python 3.10.9
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA ../../sequences/bgi/longRNA_1.fq.gz
+Processing single-end reads on 1 core ...
+Finished in 1053.179 s (17.532 µs/read; 3.42 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              60,070,942
+Reads with adapters:                21,230,095 (35.3%)
+Reads written (passing filters):    60,070,942 (100.0%)
+
+Total basepairs processed: 6,007,094,200 bp
+Quality-trimmed:               2,408,765 bp (0.0%)
+Total written (filtered):  5,976,503,178 bp (99.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 21230095 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 24.4%
+  C: 29.3%
+  G: 26.8%
+  T: 19.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	16352535	15017735.5	0	16352535
+2	3624753	3754433.9	0	3624753
+3	1057328	938608.5	0	1057328
+4	128048	234652.1	0	128048
+5	41475	58663.0	0	41475
+6	9120	14665.8	0	9120
+7	3609	3666.4	0	3609
+8	414	916.6	0	414
+9	708	229.2	0	150 558
+10	930	57.3	1	22 908
+11	425	14.3	1	7 418
+12	177	3.6	1	0 177
+13	192	3.6	1	0 192
+14	217	3.6	1	0 217
+15	683	3.6	1	2 681
+16	199	3.6	1	0 199
+17	109	3.6	1	1 108
+18	89	3.6	1	1 88
+19	133	3.6	1	0 133
+20	136	3.6	1	0 136
+21	119	3.6	1	1 118
+22	110	3.6	1	0 110
+23	73	3.6	1	0 73
+24	89	3.6	1	0 89
+25	85	3.6	1	0 85
+26	101	3.6	1	1 100
+27	71	3.6	1	1 70
+28	101	3.6	1	1 100
+29	67	3.6	1	0 67
+30	100	3.6	1	3 97
+31	84	3.6	1	1 83
+32	117	3.6	1	1 116
+33	93	3.6	1	3 90
+34	117	3.6	1	1 116
+35	87	3.6	1	0 87
+36	80	3.6	1	0 80
+37	94	3.6	1	0 94
+38	89	3.6	1	1 88
+39	112	3.6	1	1 111
+40	73	3.6	1	1 72
+41	64	3.6	1	0 64
+42	58	3.6	1	0 58
+43	71	3.6	1	0 71
+44	94	3.6	1	2 92
+45	91	3.6	1	2 89
+46	94	3.6	1	7 87
+47	102	3.6	1	0 102
+48	161	3.6	1	1 160
+49	122	3.6	1	1 121
+50	118	3.6	1	0 118
+51	125	3.6	1	1 124
+52	133	3.6	1	0 133
+53	142	3.6	1	2 140
+54	179	3.6	1	2 177
+55	127	3.6	1	3 124
+56	139	3.6	1	2 137
+57	127	3.6	1	0 127
+58	137	3.6	1	2 135
+59	218	3.6	1	2 216
+60	111	3.6	1	1 110
+61	124	3.6	1	5 119
+62	125	3.6	1	0 125
+63	128	3.6	1	0 128
+64	96	3.6	1	0 96
+65	89	3.6	1	1 88
+66	84	3.6	1	0 84
+67	106	3.6	1	0 106
+68	125	3.6	1	0 125
+69	107	3.6	1	0 107
+70	123	3.6	1	1 122
+71	89	3.6	1	0 89
+72	90	3.6	1	0 90
+73	124	3.6	1	0 124
+74	92	3.6	1	0 92
+75	83	3.6	1	1 82
+76	92	3.6	1	0 92
+77	105	3.6	1	3 102
+78	88	3.6	1	0 88
+79	101	3.6	1	0 101
+80	80	3.6	1	0 80
+81	79	3.6	1	0 79
+82	84	3.6	1	1 83
+83	78	3.6	1	0 78
+84	77	3.6	1	0 77
+85	159	3.6	1	0 159
+86	116	3.6	1	1 115
+87	86	3.6	1	0 86
+88	72	3.6	1	0 72
+89	88	3.6	1	1 87
+90	98	3.6	1	0 98
+91	83	3.6	1	2 81
+92	183	3.6	1	3 180
+93	106	3.6	1	0 106
+94	90	3.6	1	0 90
+95	74	3.6	1	0 74
+96	90	3.6	1	0 90
+97	221	3.6	1	0 221
+98	128	3.6	1	0 128
+99	332	3.6	1	7 325
+100	245	3.6	1	5 240
+
+RUN STATISTICS FOR INPUT FILE: ../../sequences/bgi/longRNA_1.fq.gz
+=============================================
+60070942 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	2491 (0.0%)
+

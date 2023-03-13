@@ -1,0 +1,8 @@
+PASS	Basic Statistics	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Per base sequence content	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Per sequence GC content	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Per base N content	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Sequence Length Distribution	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Sequence Duplication Levels	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+PASS	Overrepresented sequences	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
+WARN	Adapter Content	L9_FKRN220333176-1A_H2255DSX5_L2_2_val_2.fq.gz
